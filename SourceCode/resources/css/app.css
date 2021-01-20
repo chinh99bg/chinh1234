@@ -1,0 +1,21 @@
+body {
+    background-color: #4b83a6;
+    height: 1700px;
+}
+
+.header {
+    height: 100px;
+    width: 1360px;
+}
+
+.container {
+    background-color: white;
+    height: 1360px;
+    width: 1360px;
+}
+
+.footer {
+    height: 230px;
+    width: 1360px;
+}
+

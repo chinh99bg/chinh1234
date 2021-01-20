@@ -1,0 +1,603 @@
+.banner {
+    height: 430px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#List {
+    list-style-type: none;
+    line-height: 36px;
+    padding-left: 14px;
+}
+
+#text-control2 {
+    margin-left: 25px;
+    font-size: 17.5px;
+}
+
+#menu-controler a {
+    text-decoration: none;
+    display: block;
+    color: #3a5362;
+    line-height: 36.3px;
+    width: 100%;
+    height: 53.3px;
+}
+
+#menu-controler a:hover {
+    color: white;
+    background-size: 102px;
+}
+
+.List-control {
+    height: 48px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 2%;
+    border-bottom: 4px solid #437c9e;
+}
+
+.List-control-1 {
+    width: 90%;
+    padding-top: 9px;
+    margin-left: 11%;
+}
+
+.List-control-2 {
+    position: absolute;
+    right: 0px;
+    margin-right: 14%;
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+}
+
+.container {
+    width: 100%;
+    height: 378px;
+}
+
+.menu {
+    margin-top: 330px;
+}
+
+.slider-background {
+    float: left;
+    margin-left: 170px;
+}
+
+#im {
+    float: right;
+    padding-right: 124px;
+    margin-top: -44px;
+    width: 62.5%;
+    padding-left: 13px;
+}
+
+.control-form {
+    width: 25%;
+    height: 25%;
+    float: right;
+}
+
+#control {
+    width: 30%;
+}
+
+#carousel-control {
+    bottom: -70px;
+}
+
+.tenants1 {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.home {
+    height: 176px;
+}
+
+#space {
+    padding-left: 8px;
+    float: left;
+}
+
+.home-control {
+    margin-left: 13.5%;
+    padding-top: 15px;
+}
+
+#home-control-1 {
+    width: 305px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+#P-control {
+    padding-top: 45px;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+#myCarousel {
+    width: 526px;
+    padding-top: 20px;
+}
+
+#text-control1 {
+    color: #4484ad;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.column-1 {
+    display: inline-block;
+    padding-left: 47px;
+}
+
+.column-2 {
+    float: right;
+    padding-right: 13.8%;
+}
+
+.Bayonne {
+    background-color: white;
+    height: 515px;
+}
+
+#radius {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #437c9e;
+    width: 222px;
+    height: 204px;
+}
+
+#layer {
+    float: right;
+    padding-top: 16px;
+    padding-right: 18px;
+}
+
+#display-control {
+    width: 492px;
+    height: 117px;
+    padding-top: 4px;
+    margin-left: 37%;
+}
+
+#member-login {
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 24px;
+    color: white;
+    float: left;
+}
+
+#subscribe {
+    width: 492px;
+    height: 117px;
+    margin-top: 11px;
+    margin-right: 34.5%;
+    float: right;
+}
+
+#input {
+    float: left;
+    margin-left: 25px;
+    margin-top: -6px;
+    margin-right: 11px;
+    width: 66%
+}
+
+#input1 {
+    float: left;
+    margin-left: 25px;
+}
+
+#input-color {
+    padding-top: 4px;
+}
+
+::-webkit-input-placeholder {
+    color: #4b83a6;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-left: 15px;
+}
+
+.btn1 {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding-left: 25px;
+    margin-top: -3px;
+    border: none;
+    height: 40px;
+    width: 70px;
+}
+
+.tabs {
+    position: relative;
+    margin-right: 174px;
+    width: 436px;
+    float: right;
+}
+
+.tabs input {
+    position: absolute;
+    z-index: 1000;
+    width: 125px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+
+.tabs input#tab-2 {
+    left: 185px;
+}
+
+.tabs input#tab-3 {
+    left: 240px;
+}
+
+.tabs input#tab-4 {
+    left: 360px;
+}
+
+.tabs label {
+    top: 5px;
+    font-size: 22px;
+    line-height: 40px;
+    height: 40px;
+    position: relative;
+    padding: 0 20px;
+    float: left;
+    display: block;
+    width: 170px;
+    color: #385c5b;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabs label:after {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    display: block;
+}
+
+.tabs label:first-of-type {
+    z-index: 4;
+}
+
+.tab-label-2 {
+    z-index: 3;
+}
+
+.tab-label-3 {
+    z-index: 2;
+}
+
+.tab-label-4 {
+    z-index: 1;
+}
+
+.tabs input:checked+label {
+    z-index: 6;
+}
+
+.clear-shadow {
+    clear: both;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 323px;
+    z-index: 5;
+}
+
+.content div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 40px;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: opacity linear 0.1s;
+    -moz-transition: opacity linear 0.1s;
+    -o-transition: opacity linear 0.1s;
+    -ms-transition: opacity linear 0.1s;
+    transition: opacity linear 0.1s;
+}
+
+.tabs input.tab-selector-1:checked~.content .content-1,
+.tabs input.tab-selector-2:checked~.content .content-2,
+.tabs input.tab-selector-3:checked~.content .content-3,
+.tabs input.tab-selector-4:checked~.content .content-4 {
+    z-index: 100;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transition: opacity ease-out 0.2s 0.1s;
+    -moz-transition: opacity ease-out 0.2s 0.1s;
+    -o-transition: opacity ease-out 0.2s 0.1s;
+    -ms-transition: opacity ease-out 0.2s 0.1s;
+    transition: opacity ease-out 0.2s 0.1s;
+    width: 100%;
+}
+
+.content div h2,
+.content div h3 {
+    color: #398080;
+}
+
+.content div p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    margin: 0;
+    padding-left: 8px;
+    padding-top: 12px;
+    color: white;
+}
+
+#select {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: right;
+    margin-right: 22px;
+    margin-top: -4px;
+    width: 53%;
+    height: 35px;
+    color: #316e94;
+    padding-left: 20px;
+}
+
+#select1 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: right;
+    margin-right: 22px;
+    margin-top: 14px;
+    width: 58%;
+    height: 35px;
+    color: #316e94;
+    padding-left: 20px;
+}
+
+#search {
+    opacity: 1;
+    margin-top: 9%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    border: none;
+    width: 55%;
+    height: 48px;
+    margin-left: 40.5%;
+    color: white;
+    font-size: 23px;
+}
+
+#Example {
+    height: 53px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: relative;
+    opacity: 1;
+    border: 3px solid #316e94;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 6px 15px;
+    font-size: 18px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: #fff;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #2c5f7f;
+}
+
+.wrap {
+    width: 1360px;
+}
+
+#signin {
+    padding-left: 10px;
+    font-size: 17.5px;
+}
+
+.sign {
+    float: right;
+    margin-top: -57px;
+}
+
+#sign-controler a {
+    text-decoration: none;
+    color: #3a5362;
+    padding-left: 27px;
+    font-size: 17.5px;
+}
+
+#sign-controler a:hover {
+    color: #eee;
+}
+
+div.container3 {
+    width: 30%;
+    float: left;
+    margin-left: 18px;
+}
+
+
+/* định dạng thẻ div chưa các button tab */
+
+div.tab3 {
+    overflow: hidden;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 45px;
+}
+
+
+/* định dạng các button tab */
+
+div.tab3 button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* đổi màu khi một button tab được hover */
+
+div.tab3 button:hover {
+    color: white;
+}
+
+
+/* đổi màu nền cho tab đang được hiển thị nội dung */
+
+div.tab3 button.active {
+    background-color: #5495bd;
+    color: white;
+}
+
+#tenants {
+    border-top-right-radius: 10px;
+    width: 35.5%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#owners {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 5px;
+    width: 35.5%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/**
+ * Checkbox Five
+ */
+
+.checkboxFive {
+    width: 30px;
+    margin: 6px 35px;
+    position: relative;
+    float: left;
+}
+
+
+/**
+ * Create the box for the checkbox
+ */
+
+.checkboxFive label {
+    cursor: pointer;
+    position: absolute;
+    width: 21px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background: #eee;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+/**
+ * Display the tick inside the checkbox
+ */
+
+.checkboxFive label:after {
+    opacity: 0.2;
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 7px;
+    background: transparent;
+    top: 5px;
+    left: 5px;
+    border: 3px solid #3a88ba;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+/**
+ * Create the hover event of the tick
+ */
+
+.checkboxFive label:hover::after {
+    opacity: 0.5;
+}
+
+
+/**
+ * Create the checkbox state for the tick
+ */
+
+.checkboxFive input[type=checkbox]:checked+label:after {
+    opacity: 1;
+}
+
+#font {
+    color: #fff;
+    font-size: 17px;
+    margin-left: 35px;
+    float: left;
+}
+
+#sel {
+    margin-top: 40px;
+}
